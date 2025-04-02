@@ -1,1 +1,1 @@
-# golang
+# Let's go(lang)
