@@ -15,7 +15,8 @@ func main() {
 
 	finalCost = bulkMessageCost
 	if isPremiumUser{
-		finalCost = finalCost - discountRate
+		finalCost = finalCost - discountRate * finalCost
+		// fmt.Println(finalCost)
 	}
 
 	if accountBalance >= finalCost{
